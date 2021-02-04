@@ -1,0 +1,31 @@
+	<article class="cta">
+		<section class="login">
+			<h2 class="big-teaser">Login</h2>
+
+			<div class="login-form">
+				<div *ngIf="errorMessage !== ''" class = "alert">{{errorMessage}}</div>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Name" required="required" [(ngModel)]="email">
+				</div>
+				<div class="form-group">
+					<input type="password" class="form-control" placeholder="Password" required="required" [(ngModel)]="password">
+				</div>
+			{{email}}
+			</div>
+
+			<button i18n type="submit" class="button-orange" (click)="Login()">Einloggen</button>
+			<p i18n class="text-center"><a routerLink="/signup" routerLinkActive="active">Account erstellen</a></p>
+		</section>
+	</article>
+
+	<article class="divider">
+	</article>
+
+	<article id="design-elem">
+		<img id="design-img" src="./../../assets/images/the-convergence.jpg">
+		<section id="design-text">
+			<h3>Made in Hof.</h3><br><br><h4>with Love.</h4>
+		</section>
+	</article>
+
+

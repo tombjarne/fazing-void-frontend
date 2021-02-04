@@ -1,0 +1,8 @@
+<br  />
+<p *ngIf="currentUser">
+  You are logged in, dear {{currentUser.name}}! Your email is {{currentUser.email}}.
+</p>
+
+<p *ngIf="!currentUser">
+  You are not logged in!
+</p>

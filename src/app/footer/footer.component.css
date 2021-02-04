@@ -1,0 +1,84 @@
+#footer {
+	display: flex;
+	align-items: last-baseline;
+	margin-top: 100px;
+	height: 290px;	
+	background-image: url("./../../assets/images/fazing-void-footer.png");
+	background-repeat: no-reapeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#footer h2, #footer h3, #footer h4, #footer p {
+	color: #f8f8ff;
+}
+
+#footer a {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#sitemap {
+	display: flex;
+	align-content: center;
+	align-items: baseline;
+	flex-flow: column;
+	margin: 0px;
+}
+
+#sitemap ul {
+	display: flex;
+	flex-direction: column;
+}
+
+#copyright {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	background-color: #1C2847;
+}
+
+#copyright p {
+	color: #f8f8ff;
+}
+
+#shop-footer {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+#shop-footer h2, #shop-footer h3, #shop-footer h4{
+
+	font-weight: 300;
+}
+
+#shop-footer .product-img {
+	width: 15vw;
+	border: 10px solid white;
+}
+
+.footer-text{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	border-bottom: 5px solid white;
+	font-size: 32px;
+	font-weight: 400;
+	margin: 50px 48px 0px;
+}
+
+#content-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	justify-content: center;
+	padding: 15px;
+}
+
+#content-footer a {
+	margin: 0px;
+}
+
+#content-footer p {
+	line-height: 12px;
+}

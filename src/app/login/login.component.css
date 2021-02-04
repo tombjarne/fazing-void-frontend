@@ -1,0 +1,56 @@
+h1, h2, h3, h4, p, a {
+	color: #fff;
+}
+
+.cta{
+	background-image: url("./../../assets/images/background-2-fazing-void.jpg");
+	background-repeat: no-reapeat;
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login button {
+	margin: 20px;
+}
+
+
+.login-form {
+
+}
+
+.form-group input{
+	width: 30vw;
+	height: 3vh;
+	border-radius: 8px;
+}
+
+.alert{
+	margin: 5px;
+	font-size: 15px;
+	color: red;
+}
+
+.divider {
+	background-color: #0C111F;
+	height: 10vh;
+}
+
+#design-text {
+	width: 24vw;
+}
+
+#design-text h1, #design-text h2, #design-text h3, #design-text p {
+	margin: 0px;
+}

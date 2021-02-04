@@ -1,0 +1,52 @@
+{
+	"articles": [
+		{
+			"id_article":10001,
+			"id_category":10001,
+			"name_de":"Fazing Void Hoodie Schwarz",
+			"name_en":"Fazing Void Hoodie Black",
+			"price":39.95,
+			"release_date":null,
+			"description_de":"Der schlichte Kapuzenpullover ist der perfekte Begleiter f\u00fcr deine Freizeitaktivit\u00e4ten.\r\n\r\nDer hochwertige Material-Mix mit ultra weicher Innenseite sorgt f\u00fcr h\u00f6chsten Tragekomfort und h\u00e4lt dich sch\u00f6n warm. \r\n\r\nTraditionelle Features wie eine K\u00e4ngurutasche, die Kapuze mit Kordelzug und die gerippten \u00c4rmel d\u00fcrfen nat\u00fcrlich nicht fehlen. \r\n\r\nDank des schlichten Farbdesigns l\u00e4sst sich der Hoodie vielseitig kombinieren. ",
+			"description_en":"The simple Fazing Void Hoodie is the perfect companion for your leisure time activities.\r\n\r\nThe high-quality material mix with ultra-soft inside ensures the highest wearing comfort and keeps you nice and warm.\r\n\r\nTraditional features like a kangaroo pocket, hood with drawstring and ribbed sleeves should not be missing.\r\n\r\nThanks to the simple color design, the hoodie can be combined in many ways.",
+			"availability":1,
+			"pictures":"/images/fazing-void-hoodie-black.jpg",
+			"game_language":null,
+			"audio_language":null,
+			"video_link":null,
+			"teaser_de":"Der schlichte Kapuzenpullover ist der perfekte Begleiter f\u00fcr deine Freizeitaktivit\u00e4ten.",
+			"teaser_en":"The simple Fazing Void Hoodie is the perfect companion for your leisure time activities.",
+			"features_de":null,
+			"features_en":null,
+			"age_rating":null,
+			"content_rating":null,
+			"system_requirements":null,
+			"c_date":"1562092073",
+			"active":1
+		},
+		
+		{
+			"id_article":10002,
+			"id_category":10002,
+			"name_de":"Convergence Skins",
+			"name_en":"Convergence Skins",
+			"price":9.95,
+			"release_date":null,
+			"description_de":"Dominiere deine Feinde mit speziellen Convergence Skins!",
+			"description_de":"Dominiate your friends with special Convergence skins!",
+			"pictures":"/images/fazing-void-convergence-skins.jpg",
+			"game_language":null,
+			"audio_language":null,
+			"video_link":null,
+			"teaser_de":"Der schlichte Kapuzenpullover ist der perfekte Begleiter f\u00fcr deine Freizeitaktivit\u00e4ten.",
+			"teaser_en":"The simple Fazing Void Hoodie is the perfect companion for your leisure time activities.",
+			"features_de":null,
+			"features_en":null,
+			"age_rating":null,
+			"content_rating":null,
+			"system_requirements":null,
+			"c_date":"1562092073",
+			"active":1
+		}
+	]
+}

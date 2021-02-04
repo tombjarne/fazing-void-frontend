@@ -1,0 +1,50 @@
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+</head>
+
+<header>
+	<div id="nav-content">
+		<div id="logo-container">
+			<a class="nav-element" routerLink="/home">
+				<img id="logo-header" alt="fazing-void-logo" src="./../../assets/images/fazing-void-logo.png" routerLink="/"/>
+			</a>
+			<h2 id="fazing-word" >Fazing Void</h2>
+		</div>
+		<div class="nav-container">
+			<!--<a routerLink="/" class="logo">{{ appTitle }}</a>-->
+			<nav>
+				<ul>
+					<li><a class="nav-element" routerLink="/">Home</a></li>
+					<li><a class="nav-element" routerLink="/games">Games</a></li>
+					<li><a class="nav-element" routerLink="/news">News</a></li>
+					<li><a class="nav-element" routerLink="/studio">Studio</a></li>
+					<li><a class="nav-element" routerLink="/shop">Shop</a></li>
+					<li><a class="nav-element" routerLink="/contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div id="web-controls" class="collapse navbar-collapse">
+					
+					<a class="nav-link" routerLink="search" routerLinkActive="active"><img id="first-tool" class="nav-icon" src="./../../assets/images/search-icon-fazing-void.png"></a>
+					<a class="nav-link" routerLink="settings" routerLinkActive="active"><img id="first-tool" class="nav-icon" src="./../../assets/images/tools-icon-fazing-void.png"></a>
+
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item" *ngIf="authService.logIn">
+							<a class="nav-link" routerLink="profile" routerLinkActive="active"></a>
+						</li>
+
+						<li class="nav-item" *ngIf="!authService.logIn">
+							<a class="nav-link" routerLink="login" routerLinkActive="active"><img id="first-tool" class="nav-icon" src="./../../assets/images/profile-icon-fazing-void.png"></a>
+						</li>
+
+						<li class="nav-item" *ngIf="authService.logIn">
+							<a class="nav-link" (click)="authService.logout()" href="#"></a>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</header>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="bda1e3531426fc724151f5b4a28af0b148fa042d" datatype="html">
+        <source>Fazing Void</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a25b7631000f5c079d2e6bdc8975af689f510c64" datatype="html">
+        <source>Willkommen</source>
+		<target>Welcome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cf83f50533ef06f337ac6b610bc4735ea93bc039" datatype="html">
+        <source>&quot;Hallo&quot;</source>
+		<target>&quot;Hello&quot;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/games/games.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
